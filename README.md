@@ -1,4 +1,4 @@
-# SwiftUIClosedCaptioning
+# SwiftUISubtitleCaptioning
 
 *This project is dedicated to my Dad, who overcomes his own hearing loss everyday and inspires me to write code that can improve accessibility in tech.*
 
