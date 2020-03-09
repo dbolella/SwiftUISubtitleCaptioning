@@ -20,6 +20,10 @@
 		0A0D9E1D233FC9BF00B4240B /* Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A0D9E1C233FC9BF00B4240B /* Utility.swift */; };
 		0A1AA26B23425CC700260728 /* PlayerContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A1AA26A23425CC700260728 /* PlayerContainerView.swift */; };
 		0A1AA26D234266D000260728 /* ClosedCaptioning.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A1AA26C234266D000260728 /* ClosedCaptioning.swift */; };
+		0AB2CF922411A3DF0088ACB5 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0AB2CF912411A3DF0088ACB5 /* GoogleService-Info.plist */; };
+		7529F528A6476E42BC5D3FC9 /* Pods_SwiftUIClosedCaptioningTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2959016939809321189D97F /* Pods_SwiftUIClosedCaptioningTests.framework */; };
+		796A5D4EE848436B5A7D2702 /* Pods_SwiftUIClosedCaptioning_SwiftUIClosedCaptioningUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 82D39574D76EA91BF2462626 /* Pods_SwiftUIClosedCaptioning_SwiftUIClosedCaptioningUITests.framework */; };
+		D18B6C47E2C0660376208992 /* Pods_SwiftUIClosedCaptioning.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1FBADC77C60EE778900E8E18 /* Pods_SwiftUIClosedCaptioning.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,7 +44,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0A0D9DE5233FC8B100B4240B /* SwiftUIClosedCaptioning.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIClosedCaptioning.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		07743369B1F6337A3C002240 /* Pods-SwiftUIClosedCaptioningTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftUIClosedCaptioningTests.release.xcconfig"; path = "Target Support Files/Pods-SwiftUIClosedCaptioningTests/Pods-SwiftUIClosedCaptioningTests.release.xcconfig"; sourceTree = "<group>"; };
+		0A0D9DE5233FC8B100B4240B /* SwiftUISubtitleCaptioning.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUISubtitleCaptioning.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0A0D9DE8233FC8B100B4240B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0A0D9DEA233FC8B100B4240B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		0A0D9DEC233FC8B100B4240B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -59,6 +64,15 @@
 		0A0D9E1C233FC9BF00B4240B /* Utility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utility.swift; sourceTree = "<group>"; };
 		0A1AA26A23425CC700260728 /* PlayerContainerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerContainerView.swift; sourceTree = "<group>"; };
 		0A1AA26C234266D000260728 /* ClosedCaptioning.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClosedCaptioning.swift; sourceTree = "<group>"; };
+		0AB2CF912411A3DF0088ACB5 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		0BD7827808EFA91835300668 /* Pods-SwiftUIClosedCaptioning-SwiftUIClosedCaptioningUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftUIClosedCaptioning-SwiftUIClosedCaptioningUITests.debug.xcconfig"; path = "Target Support Files/Pods-SwiftUIClosedCaptioning-SwiftUIClosedCaptioningUITests/Pods-SwiftUIClosedCaptioning-SwiftUIClosedCaptioningUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		13F4C52263D2BCF4297E6B96 /* Pods-SwiftUIClosedCaptioning.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftUIClosedCaptioning.debug.xcconfig"; path = "Target Support Files/Pods-SwiftUIClosedCaptioning/Pods-SwiftUIClosedCaptioning.debug.xcconfig"; sourceTree = "<group>"; };
+		1FBADC77C60EE778900E8E18 /* Pods_SwiftUIClosedCaptioning.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftUIClosedCaptioning.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3076EE454A985B70146DED1B /* Pods-SwiftUIClosedCaptioning-SwiftUIClosedCaptioningUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftUIClosedCaptioning-SwiftUIClosedCaptioningUITests.release.xcconfig"; path = "Target Support Files/Pods-SwiftUIClosedCaptioning-SwiftUIClosedCaptioningUITests/Pods-SwiftUIClosedCaptioning-SwiftUIClosedCaptioningUITests.release.xcconfig"; sourceTree = "<group>"; };
+		55BB167C125FCB242FC797DB /* Pods-SwiftUIClosedCaptioning.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftUIClosedCaptioning.release.xcconfig"; path = "Target Support Files/Pods-SwiftUIClosedCaptioning/Pods-SwiftUIClosedCaptioning.release.xcconfig"; sourceTree = "<group>"; };
+		82D39574D76EA91BF2462626 /* Pods_SwiftUIClosedCaptioning_SwiftUIClosedCaptioningUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftUIClosedCaptioning_SwiftUIClosedCaptioningUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B66E46365C336510488DB51C /* Pods-SwiftUIClosedCaptioningTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftUIClosedCaptioningTests.debug.xcconfig"; path = "Target Support Files/Pods-SwiftUIClosedCaptioningTests/Pods-SwiftUIClosedCaptioningTests.debug.xcconfig"; sourceTree = "<group>"; };
+		C2959016939809321189D97F /* Pods_SwiftUIClosedCaptioningTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftUIClosedCaptioningTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +80,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D18B6C47E2C0660376208992 /* Pods_SwiftUIClosedCaptioning.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -73,6 +88,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7529F528A6476E42BC5D3FC9 /* Pods_SwiftUIClosedCaptioningTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -80,6 +96,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				796A5D4EE848436B5A7D2702 /* Pods_SwiftUIClosedCaptioning_SwiftUIClosedCaptioningUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -93,13 +110,15 @@
 				0A0D9DFE233FC8B600B4240B /* SwiftUIClosedCaptioningTests */,
 				0A0D9E09233FC8B600B4240B /* SwiftUIClosedCaptioningUITests */,
 				0A0D9DE6233FC8B100B4240B /* Products */,
+				36F72A3BAE20AB81FFC501CB /* Pods */,
+				6FBD632820943753AB9FB940 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
 		0A0D9DE6233FC8B100B4240B /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				0A0D9DE5233FC8B100B4240B /* SwiftUIClosedCaptioning.app */,
+				0A0D9DE5233FC8B100B4240B /* SwiftUISubtitleCaptioning.app */,
 				0A0D9DFB233FC8B600B4240B /* SwiftUIClosedCaptioningTests.xctest */,
 				0A0D9E06233FC8B600B4240B /* SwiftUIClosedCaptioningUITests.xctest */,
 			);
@@ -116,6 +135,7 @@
 				0A0D9E1C233FC9BF00B4240B /* Utility.swift */,
 				0A1AA26A23425CC700260728 /* PlayerContainerView.swift */,
 				0A0D9DEC233FC8B100B4240B /* ContentView.swift */,
+				0AB2CF912411A3DF0088ACB5 /* GoogleService-Info.plist */,
 				0A1AA26C234266D000260728 /* ClosedCaptioning.swift */,
 				0A0D9DEE233FC8B500B4240B /* Assets.xcassets */,
 				0A0D9DF3233FC8B500B4240B /* LaunchScreen.storyboard */,
@@ -151,6 +171,30 @@
 			path = SwiftUIClosedCaptioningUITests;
 			sourceTree = "<group>";
 		};
+		36F72A3BAE20AB81FFC501CB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				13F4C52263D2BCF4297E6B96 /* Pods-SwiftUIClosedCaptioning.debug.xcconfig */,
+				55BB167C125FCB242FC797DB /* Pods-SwiftUIClosedCaptioning.release.xcconfig */,
+				0BD7827808EFA91835300668 /* Pods-SwiftUIClosedCaptioning-SwiftUIClosedCaptioningUITests.debug.xcconfig */,
+				3076EE454A985B70146DED1B /* Pods-SwiftUIClosedCaptioning-SwiftUIClosedCaptioningUITests.release.xcconfig */,
+				B66E46365C336510488DB51C /* Pods-SwiftUIClosedCaptioningTests.debug.xcconfig */,
+				07743369B1F6337A3C002240 /* Pods-SwiftUIClosedCaptioningTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		6FBD632820943753AB9FB940 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1FBADC77C60EE778900E8E18 /* Pods_SwiftUIClosedCaptioning.framework */,
+				82D39574D76EA91BF2462626 /* Pods_SwiftUIClosedCaptioning_SwiftUIClosedCaptioningUITests.framework */,
+				C2959016939809321189D97F /* Pods_SwiftUIClosedCaptioningTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -158,9 +202,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0A0D9E0F233FC8B600B4240B /* Build configuration list for PBXNativeTarget "SwiftUIClosedCaptioning" */;
 			buildPhases = (
+				C0129CD8295F15BCA839CFB7 /* [CP] Check Pods Manifest.lock */,
 				0A0D9DE1233FC8B100B4240B /* Sources */,
 				0A0D9DE2233FC8B100B4240B /* Frameworks */,
 				0A0D9DE3233FC8B100B4240B /* Resources */,
+				C9307B1E641FD3E0272DF7E7 /* [CP] Embed Pods Frameworks */,
+				006FDC910AE9410B4512A09F /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -168,13 +215,14 @@
 			);
 			name = SwiftUIClosedCaptioning;
 			productName = SwiftUIClosedCaptioning;
-			productReference = 0A0D9DE5233FC8B100B4240B /* SwiftUIClosedCaptioning.app */;
+			productReference = 0A0D9DE5233FC8B100B4240B /* SwiftUISubtitleCaptioning.app */;
 			productType = "com.apple.product-type.application";
 		};
 		0A0D9DFA233FC8B600B4240B /* SwiftUIClosedCaptioningTests */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0A0D9E12233FC8B600B4240B /* Build configuration list for PBXNativeTarget "SwiftUIClosedCaptioningTests" */;
 			buildPhases = (
+				47C43FC3269DE88BDEE4035A /* [CP] Check Pods Manifest.lock */,
 				0A0D9DF7233FC8B600B4240B /* Sources */,
 				0A0D9DF8233FC8B600B4240B /* Frameworks */,
 				0A0D9DF9233FC8B600B4240B /* Resources */,
@@ -193,9 +241,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0A0D9E15233FC8B600B4240B /* Build configuration list for PBXNativeTarget "SwiftUIClosedCaptioningUITests" */;
 			buildPhases = (
+				EB066D1727A5FB12DAABEA14 /* [CP] Check Pods Manifest.lock */,
 				0A0D9E02233FC8B600B4240B /* Sources */,
 				0A0D9E03233FC8B600B4240B /* Frameworks */,
 				0A0D9E04233FC8B600B4240B /* Resources */,
+				6FA7C2D553E88001DCDAB691 /* [CP] Embed Pods Frameworks */,
+				F8C71B9A782C9DFF9B2374D7 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -257,6 +308,7 @@
 			files = (
 				0A0D9E1B233FC8DC00B4240B /* imac7.mp4 in Resources */,
 				0A0D9DF5233FC8B500B4240B /* LaunchScreen.storyboard in Resources */,
+				0AB2CF922411A3DF0088ACB5 /* GoogleService-Info.plist in Resources */,
 				0A0D9DF2233FC8B500B4240B /* Preview Assets.xcassets in Resources */,
 				0A0D9DEF233FC8B500B4240B /* Assets.xcassets in Resources */,
 			);
@@ -277,6 +329,143 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		006FDC910AE9410B4512A09F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SwiftUIClosedCaptioning/Pods-SwiftUIClosedCaptioning-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SwiftUIClosedCaptioning/Pods-SwiftUIClosedCaptioning-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SwiftUIClosedCaptioning/Pods-SwiftUIClosedCaptioning-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		47C43FC3269DE88BDEE4035A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SwiftUIClosedCaptioningTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6FA7C2D553E88001DCDAB691 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SwiftUIClosedCaptioning-SwiftUIClosedCaptioningUITests/Pods-SwiftUIClosedCaptioning-SwiftUIClosedCaptioningUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SwiftUIClosedCaptioning-SwiftUIClosedCaptioningUITests/Pods-SwiftUIClosedCaptioning-SwiftUIClosedCaptioningUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SwiftUIClosedCaptioning-SwiftUIClosedCaptioningUITests/Pods-SwiftUIClosedCaptioning-SwiftUIClosedCaptioningUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C0129CD8295F15BCA839CFB7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SwiftUIClosedCaptioning-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C9307B1E641FD3E0272DF7E7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SwiftUIClosedCaptioning/Pods-SwiftUIClosedCaptioning-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SwiftUIClosedCaptioning/Pods-SwiftUIClosedCaptioning-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SwiftUIClosedCaptioning/Pods-SwiftUIClosedCaptioning-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EB066D1727A5FB12DAABEA14 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SwiftUIClosedCaptioning-SwiftUIClosedCaptioningUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F8C71B9A782C9DFF9B2374D7 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SwiftUIClosedCaptioning-SwiftUIClosedCaptioningUITests/Pods-SwiftUIClosedCaptioning-SwiftUIClosedCaptioningUITests-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SwiftUIClosedCaptioning-SwiftUIClosedCaptioningUITests/Pods-SwiftUIClosedCaptioning-SwiftUIClosedCaptioningUITests-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SwiftUIClosedCaptioning-SwiftUIClosedCaptioningUITests/Pods-SwiftUIClosedCaptioning-SwiftUIClosedCaptioningUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		0A0D9DE1233FC8B100B4240B /* Sources */ = {
@@ -452,6 +641,7 @@
 		};
 		0A0D9E10233FC8B600B4240B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 13F4C52263D2BCF4297E6B96 /* Pods-SwiftUIClosedCaptioning.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -463,8 +653,8 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.bolella.SwiftUIClosedCaptioning;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bolella.SwiftUISubtitleCaptioning;
+				PRODUCT_NAME = SwiftUISubtitleCaptioning;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -472,6 +662,7 @@
 		};
 		0A0D9E11233FC8B600B4240B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 55BB167C125FCB242FC797DB /* Pods-SwiftUIClosedCaptioning.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -483,8 +674,8 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.bolella.SwiftUIClosedCaptioning;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bolella.SwiftUISubtitleCaptioning;
+				PRODUCT_NAME = SwiftUISubtitleCaptioning;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -492,6 +683,7 @@
 		};
 		0A0D9E13233FC8B600B4240B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B66E46365C336510488DB51C /* Pods-SwiftUIClosedCaptioningTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -514,6 +706,7 @@
 		};
 		0A0D9E14233FC8B600B4240B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 07743369B1F6337A3C002240 /* Pods-SwiftUIClosedCaptioningTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -536,6 +729,7 @@
 		};
 		0A0D9E16233FC8B600B4240B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0BD7827808EFA91835300668 /* Pods-SwiftUIClosedCaptioning-SwiftUIClosedCaptioningUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -556,6 +750,7 @@
 		};
 		0A0D9E17233FC8B600B4240B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3076EE454A985B70146DED1B /* Pods-SwiftUIClosedCaptioning-SwiftUIClosedCaptioningUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

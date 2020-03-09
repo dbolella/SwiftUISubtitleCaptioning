@@ -8,6 +8,7 @@
 
 import Foundation
 import Speech
+import FirebaseMLNLTranslate
 
 class ClosedCaptioning: VideoMediaInputDelegate, ObservableObject {
     func videoFrameRefresh(sampleBuffer: CMSampleBuffer) {
@@ -15,12 +16,18 @@ class ClosedCaptioning: VideoMediaInputDelegate, ObservableObject {
     }
     
     private let speechRecognizer = SFSpeechRecognizer(locale: Locale(identifier: "en-US"))!
+    private let translator: Translator
     private var recognitionRequest: SFSpeechAudioBufferRecognitionRequest?
     private var recognitionTask: SFSpeechRecognitionTask?
     
     @Published var captioning: String = ""
     
     init() {
+        let options = TranslatorOptions(sourceLanguage: .en, targetLanguage: .it)
+        translator = NaturalLanguage.naturalLanguage().translator(options: options)
+        translator.downloadModelIfNeeded { (error) in
+          guard error == nil else { return }
+        }
         setupRecognition()
     }
     
@@ -30,7 +37,12 @@ class ClosedCaptioning: VideoMediaInputDelegate, ObservableObject {
         recognitionRequest.shouldReportPartialResults = true
         recognitionTask = speechRecognizer.recognitionTask(with: recognitionRequest) { [weak self] result, error in
             if(result != nil){
-                self?.captioning = result!.bestTranscription.formattedString
+                self!.translator.translate(result!.bestTranscription.formattedString) { (translatedText, error) in
+                  guard error == nil,
+                    let translatedText = translatedText
+                    else { return }
+                  self?.captioning = translatedText
+                }
             }
 
             // if connected to internet, then once in about every minute recognition task finishes
